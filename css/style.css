@@ -8,10 +8,10 @@
   --font-primary: 'Poppins', sans-serif;
   --font-secondary: 'Arvo', serif;
   --font-code: 'Roboto', monospace;
-  --bg-color: #00163f;
+  --bg-color: #080514;
   --font-color: #ffffff;
-  --btn-bg-color: #9b7979;
-  --accent-color: #fead7eb0;
+  --btn-bg-color: #52c037;
+  --accent-color: #bea7b6b0;
   --header-shadow: #000 0px 0px 5px;
 }
 
@@ -23,7 +23,6 @@
 
 body {
   background-color: var(--bg-color);
-  background-image: url('images/header/icon-opensea.svg');
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -66,7 +65,7 @@ header .container {
 .btn {
   display: inline-block;
   padding: 1rem 2rem;
-  background: var(--btn-bg-color);
+  background-image: linear-gradient(160.85deg,#dfc719 18.73%,#e17e60 65.44%,#df3900 97.99%);
   color: var(--accent-color);
   font-family: var(--font-secondary);
   font-style: italic;
@@ -88,8 +87,8 @@ header .container {
   border-radius: 5rem;
   margin-left: 2rem;
   border-color: transparent;
+} 
 
-}
 
 .hero-btn {
   border-radius: 4px;
