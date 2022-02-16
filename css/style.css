@@ -37,7 +37,7 @@ span {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
@@ -52,6 +52,7 @@ header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 
 .menu {
@@ -66,7 +67,7 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background-image: linear-gradient(160.85deg,#dfc719 18.73%,#e17e60 65.44%,#df3900 97.99%);
-  color: var(--accent-color);
+  color: white;
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
@@ -87,6 +88,7 @@ header .container {
   border-radius: 5rem;
   margin-left: 2rem;
   border-color: transparent;
+  margin-right: 0px;
 } 
 
 
